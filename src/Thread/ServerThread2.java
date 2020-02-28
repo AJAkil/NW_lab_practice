@@ -43,16 +43,27 @@ public class ServerThread2 extends Thread {
                 String[]buffer = msg.split(",");
                 int receiver = Integer.parseInt(buffer[1]);
                 msg = buffer[0];
+                int currentSocketIndex = -1;
 
                 //finding the index of the current socket of the client for which the thread is running, then modifying the message
                 for (int i = 0; i < ServerMod.clientlists.size(); i++) {
-                    if(ServerMod.clientlists.get(i).getSocket() == socket){
-                        msg = "Client" + Integer.toString(i+1) + ": " + msg;
+                    if(ServerMod.clientlists.get(i).getSocket().getPort() == socket.getPort()){
+                        currentSocketIndex = i;
                     }
                 }
 
-                //selecting the specific user and sending the text
-                ServerMod.clientlists.get(receiver-1).getOos().writeObject(msg);
+                //this check is done so that I can not send texts to myself
+                if(currentSocketIndex!=-1 && (currentSocketIndex+1)!=receiver){
+                    msg = "Client" + Integer.toString(currentSocketIndex+1) + ": " + msg;
+                    //selecting the specific user and sending the text
+                    ServerMod.clientlists.get(receiver-1).getOos().writeObject(msg);
+                }else{
+                    //giving myself a warning
+                    ServerMod.clientlists.get(currentSocketIndex).getOos().writeObject("You cannot send text to yourself");
+
+                }
+
+
 
 
             }

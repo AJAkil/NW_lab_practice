@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ec7e48-5a28-48a9-b6d0-cafcd664042d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Thread/ClientWriteThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ClientWriteThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Thread/ServerThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ServerThread2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Thread/ServerThread2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="46" column="131" selection-start-line="46" selection-start-column="131" selection-end-line="46" selection-end-column="131" />
+            <state relative-caret-position="-89">
+              <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -355,7 +354,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5131291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24945295" />
@@ -366,7 +364,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49781182" visible="true" weight="0.033444814" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49781182" weight="0.60535115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -564,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread/ServerThread2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="46" column="131" selection-start-line="46" selection-start-column="131" selection-end-line="46" selection-end-column="131" />
+        <state relative-caret-position="-89">
+          <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
