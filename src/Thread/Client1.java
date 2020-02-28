@@ -13,16 +13,14 @@ public class Client1 {
         System.out.println("Remote port: " + socket.getPort());
         System.out.println("Local port: " + socket.getLocalPort());
 
-        ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream());
-
         Scanner scan = new Scanner(System.in);
         Thread listener = new ClientListener(socket);
         listener.start();
         System.out.println("Started listener thread");
 
-        while (true){
-            out.writeObject(scan.nextLine());
-        }
+        Thread writer = new ClientWriteThread(socket);
+        writer.start();
+        System.out.println("Started writer thread");
 
 
     }
