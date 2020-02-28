@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ec7e48-5a28-48a9-b6d0-cafcd664042d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Thread/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/Client1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/Client2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/Client2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ClientWriteThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ClientWriteThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ServerThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ServerThread2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread/ServerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1013">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="503">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#313#326#0" expanded="true" />
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Thread/ServerThread2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="46" column="131" selection-start-line="46" selection-start-column="131" selection-end-line="46" selection-end-column="131" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread/ClientWriteThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="406">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -155,11 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread/Client2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="555">
+              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,11 +195,11 @@
         <option value="$PROJECT_DIR$/src/Thread/SocketStuffs.java" />
         <option value="$PROJECT_DIR$/src/Thread/ServerMod.java" />
         <option value="$PROJECT_DIR$/src/Thread/ClientListener.java" />
-        <option value="$PROJECT_DIR$/src/Thread/ServerThread2.java" />
-        <option value="$PROJECT_DIR$/src/Thread/ClientWriteThread.java" />
         <option value="$PROJECT_DIR$/src/Thread/Client3.java" />
         <option value="$PROJECT_DIR$/src/Thread/Client1.java" />
         <option value="$PROJECT_DIR$/src/Thread/Client2.java" />
+        <option value="$PROJECT_DIR$/src/Thread/ClientWriteThread.java" />
+        <option value="$PROJECT_DIR$/src/Thread/ServerThread2.java" />
       </list>
     </option>
   </component>
@@ -333,9 +333,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client2 (1)" />
-        <item itemvalue="Application.Client3" />
         <item itemvalue="Application.Client1" />
         <item itemvalue="Application.ServerMod" />
+        <item itemvalue="Application.Client3" />
         <item itemvalue="Application.Server (1)" />
       </list>
     </recent_temporary>
@@ -355,6 +355,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5131291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24945295" />
@@ -365,7 +366,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49781182" visible="true" weight="0.5897436" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49781182" visible="true" weight="0.033444814" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,39 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/SocketStuffs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/ServerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1013">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread/ServerMod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-406">
@@ -519,22 +487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/ClientWriteThread.java">
+    <entry file="file://$PROJECT_DIR$/src/Thread/Client1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/ServerThread2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="546">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -551,20 +507,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread/Client1.java">
+    <entry file="file://$PROJECT_DIR$/src/Thread/ServerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        <state relative-caret-position="503">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#313#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/SocketStuffs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread/Client2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        <state relative-caret-position="555">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/ClientWriteThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread/ServerThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="46" column="131" selection-start-line="46" selection-start-column="131" selection-end-line="46" selection-end-column="131" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

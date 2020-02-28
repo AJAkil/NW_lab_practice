@@ -31,13 +31,30 @@ public class ServerThread2 extends Thread {
                 System.out.println(msg+" from client port: "+socket.getPort());
 
                 //Broadcasting message to all others by matching the input ports
-                for (SocketStuffs ss:
+                /*for (SocketStuffs ss:
                      ServerMod.clientlists) {
 
                     if(ss.getSocket().getPort()!= socket.getPort()){
                         ss.getOos().writeObject(msg);
                     }
+                }*/
+
+                //Sending message to a specific user
+                String[]buffer = msg.split(",");
+                int receiver = Integer.parseInt(buffer[1]);
+                msg = buffer[0];
+
+                //finding the index of the current socket of the client for which the thread is running, then modifying the message
+                for (int i = 0; i < ServerMod.clientlists.size(); i++) {
+                    if(ServerMod.clientlists.get(i).getSocket() == socket){
+                        msg = "Client" + Integer.toString(i+1) + ": " + msg;
+                    }
                 }
+
+                //selecting the specific user and sending the text
+                ServerMod.clientlists.get(receiver-1).getOos().writeObject(msg);
+
+
             }
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();

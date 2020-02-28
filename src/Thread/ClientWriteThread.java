@@ -17,9 +17,10 @@ public class ClientWriteThread extends Thread {
     public void run() {
         try {
             ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream());
+            Scanner scan = new Scanner(System.in);
 
             while (true){
-                out.writeObject(new Scanner(System.in).nextLine());
+                out.writeObject(scan.nextLine());
             }
 
         } catch (IOException e) {
