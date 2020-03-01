@@ -21,7 +21,7 @@ public class ServerThread2 extends Thread {
             ObjectInputStream in = null;
             for(SocketStuffs socketDetails : ServerMod.clientlists){
                 if(socketDetails.getSocket().getPort() == socket.getPort()){
-                    in = socketDetails.getOis();
+
                 }
             }
 
